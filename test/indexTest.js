@@ -1,6 +1,5 @@
 require ( './root.js' );
 
-
 function shout(string) {
   return string.toUpperCase();
 }
@@ -10,7 +9,6 @@ describe('shout(string)', function() {
     expect(shout('hello')).toEqual('HELLO');
   })
 })
-
 
 function whisper(string) {
   return string.toLowerCase();
