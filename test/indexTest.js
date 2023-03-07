@@ -53,6 +53,7 @@ describe('logWhisper(string)', function() {
   })
 })
 
+
 function sayHiToHeadphonedRoommate(string){
 
 if(string.toLowerCase()===string){return"I can't hear you!"}
